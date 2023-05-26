@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="rest-assured-master">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/examples/rest-assured-itest-java-osgi/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/examples/rest-assured-itest-java/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/examples/scala-mock-mvc-example/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/examples/spring-mvc-webapp/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/examples/spring-mvc-webapp/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/json-path/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/json-path/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/modules/json-schema-validator/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/modules/json-schema-validator/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/modules/spring-commons/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/modules/spring-mock-mvc/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/modules/spring-mock-mvc/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/modules/spring-web-test-client/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/modules/spring-web-test-client/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/rest-assured-all/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/rest-assured-common/src/main/groovy" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/rest-assured-common/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/rest-assured-common/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/rest-assured/src/main/groovy" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/rest-assured/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/rest-assured/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/xml-path/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../Drivers/rest-assured-master/xml-path/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
