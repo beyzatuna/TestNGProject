@@ -14,10 +14,10 @@ public class ParallelTest1 {
     @Test
     void logoTest() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:/Users/BEYZA TUNA/Downloads/selenium/ChromeDriver/chromedriver.exe");
-        Thread.sleep(5000);
+        Thread.sleep(1000);
         driver = new ChromeDriver();
         driver.get("https://www.globalsqa.com/samplepagetest/");
-        Thread.sleep(5000);
+        Thread.sleep(1000);
         WebElement logo = driver.findElement(By.xpath("//*[@id='app']/div[1]/div/div[1]/div/div[1]/img"));
         Assert.assertTrue(logo.isDisplayed());
 
@@ -27,17 +27,15 @@ public class ParallelTest1 {
     @Test
     void homePageTtitle() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:/Users/BEYZA TUNA/Downloads/selenium/ChromeDriver/chromedriver.exe");
-        Thread.sleep(7000);
         driver = new ChromeDriver();
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-        Thread.sleep(5000);
         Assert.assertEquals(driver.getTitle(), "OrangeHRM");
 
     }
 
     @AfterMethod
     void tearDown() throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(1000);
         driver.quit();
     }
 }
