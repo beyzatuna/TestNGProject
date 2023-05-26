@@ -16,15 +16,15 @@ public class ParallelTest2 {
         Thread.sleep(5000);
         driver = new ChromeDriver();
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-        Thread.sleep(2000);
+        
         driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("Admin");
-        Thread.sleep(5000);
+       
         driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("admin123");
-        Thread.sleep(5000);
+   
         driver.findElement(By.xpath("//button[contains(@class, 'orangehrm-login-button')]")).click();
-        Thread.sleep(5000);
+   
         Assert.assertEquals(driver.getTitle(), "OrangeHRM");
-        Thread.sleep(5000);
+     
     }
 
     @AfterMethod
